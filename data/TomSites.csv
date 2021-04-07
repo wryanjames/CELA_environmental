@@ -1,0 +1,64 @@
+Site #,Lake,Position,System,pos,pos_rev,previous sites,lat,lon,SAV,Nutrients
+1,Seven Palms,Upstream,MCS,4,1,"DM, 7P-1",25.198,80.73333333,Yes,No
+2,Seven Palms,Upstream,MCS,4,1,"DM, 7P-2",25.19333333,80.72583333,Yes,Yes
+3,Seven Palms,Upstream,MCS,4,1,"DM, 7P-3",25.18416667,80.72116667,Yes,No
+4A,Seven Palms,Upstream,MCS,4,1,new,25.19378333,80.74653333,Yes,Yes
+4B,Seven Palms,Upstream,MCS,4,1,new,25.1954,80.74658333,Yes,Yes
+4C,Seven Palms,Upstream,MCS,4,1,"DM, 7P-4, 4",25.197,80.74666667,Yes,Yes
+5A,Seven Palms,Upstream,MCS,4,1,"DM, 7P-5, 5",25.19136667,80.71593333,Yes,Yes
+5B,Seven Palms,Upstream,MCS,4,1,new,25.19126667,80.71731667,Yes,Yes
+5C,Seven Palms,Upstream,MCS,4,1,new,25.1903,80.71913333,Yes,Yes
+6,Seven Palms,Upstream,MCS,4,1,"DM, 7P-6",25.20416667,80.73883333,Yes,No
+7,Seven Palms,Upstream,MCS,4,1,"DM, 7P-7",25.17333333,80.72033333,Yes,Yes
+8,Middle Lake,Middle,MCS,3,2,"R&F, 7P-9",25.17583333,80.72733333,Yes,Yes
+9A,Middle Lake,Middle,MCS,3,2,"R&F, 7P-10, 9",25.18383333,80.73366667,Yes,Yes
+9B,Middle Lake,Middle,MCS,3,2,new,25.1823,80.73331667,Yes,Yes
+9C,Middle Lake,Middle,MCS,3,2,new,25.18055,80.73273333,Yes,Yes
+10,Monroe Lake,Downstream,MCS,2,3,"DM, ML-1",25.17166667,80.735,Yes,No
+11,Monroe Lake,Downstream,MCS,2,3,"DM, ML-2; R&F, S-14",25.18371667,80.75315,Yes,No
+12A,Monroe Lake,Downstream,MCS,2,3,new,25.16951667,80.74168333,Yes,Yes
+12B,Monroe Lake,Downstream,MCS,2,3,"DM, ML-3, 12",25.17083333,80.74121667,Yes,Yes
+12C,Monroe Lake,Downstream,MCS,2,3,new,25.17383333,80.74058333,Yes,Yes
+13,Monroe Lake,Downstream,MCS,2,3,"DM, ML-4",25.17816667,80.74466667,Yes,Yes
+14,Terrapin Bay,Bay,MCS,1,4,"DM, TB-1",25.16636667,80.73033333,Yes,No
+15,Terrapin Bay,Bay,MCS,1,4,"DM, TB-2",25.15583333,80.73878333,Yes,Yes
+16,Terrapin Bay,Bay,MCS,1,4,"DM, TB-3",25.15416667,80.73033333,Yes,No
+17,Terrapin Bay,Bay,MCS,1,4,"DM, TB-4",25.16216667,80.7265,Yes,Yes
+18,Terrapin Bay,Bay,MCS,1,4,"DM, TB-5",25.15833333,80.73366667,Yes,No
+19,Terrapin Bay,Bay,MCS,1,4,"DM, TB-7",25.15033333,80.7225,Yes,Yes
+20,Terrapin Bay,Bay,MCS,1,4,"R&F, 7P-20",25.15145,80.71673333,Yes,No
+21,Terrapin Bay,Bay,MCS,1,4,"R&F, 7P-21",25.14025,80.72043333,Yes,Yes
+22,West Lake,Upstream,ACS,4,1,"DM, WL-1",25.21333333,80.84916667,Yes,No
+23,West Lake,Upstream,ACS,4,1,"DM, WL-3",25.20266667,80.85025,Yes,No
+24A,West Lake,Upstream,ACS,4,1,"DM, WL-4, 24",25.20225,80.84338333,Yes,Yes
+24B,West Lake,Upstream,ACS,4,1,new,25.2037,80.8441,Yes,Yes
+24C,West Lake,Upstream,ACS,4,1,new,25.20281667,80.84368333,Yes,Yes
+25A,West Lake,Upstream,ACS,4,1,new,25.20123333,80.80946667,Yes,Yes
+25B,West Lake,Upstream,ACS,4,1,"DM, WL-7, 25",25.20166667,80.80966667,Yes,No
+25C,West Lake,Upstream,ACS,4,1,new,25.20218333,80.80983333,Yes,Yes
+26,West Lake,Upstream,ACS,4,1,"DM, WL-8",25.20083333,80.8,Yes,No
+27,West Lake,Upstream,ACS,4,1,"DM, WL-11",25.2065,80.80633333,Yes,Yes
+28,West Lake,Upstream,ACS,4,1,"DM, WL-13",25.20666667,80.8475,Yes,Yes
+29,Long Lake,Middle,ACS,3,2,"R&F, WL-10",25.19716667,80.79798333,Yes,Yes
+30,Long Lake,Middle,ACS,3,2,"R&F, WL-12",25.19516667,80.78693333,Yes,Yes
+31A,Long Lake,Middle,ACS,3,2,new,25.18783333,80.77978333,Yes,Yes
+31B,Long Lake,Middle,ACS,3,2,"R&F, WL-13, 31",25.18866667,80.77973333,Yes,Yes
+31C,Long Lake,Middle,ACS,3,2,new,25.18913333,80.77971667,Yes,Yes
+32,The Lungs,Downstream,ACS,2,3,"DM, Lungs-1",25.1775,80.77216667,Yes,No
+33,The Lungs,Downstream,ACS,2,3,"DM, Lungs-6",25.17451667,80.7685,Yes,No
+34A,The Lungs,Downstream,ACS,2,3,"DM, Lungs-5, 34",25.17283333,80.76083333,Yes,Yes
+34B,The Lungs,Downstream,ACS,2,3,new,25.17265,80.7623,Yes,Yes
+34C,The Lungs,Downstream,ACS,2,3,new,25.17251667,80.76363333,Yes,Yes
+35,The Lungs,Downstream,ACS,2,3,"DM, Lungs-8",25.17181667,80.77091667,Yes,Yes
+36,Garfield Bight,Bay,ACS,1,4,"DM, GB-1",25.17391667,80.79626667,Yes,No
+37,Garfield Bight,Bay,ACS,1,4,"DM, GB-3",25.1704,80.79858333,Yes,No
+38,Garfield Bight,Bay,ACS,1,4,"DM, GB-5",25.1769,80.7963,Yes,No
+39,Garfield Bight,Bay,ACS,1,4,"DM, GB-7",25.17825,80.80238333,Yes,No
+40,Garfield Bight,Bay,ACS,1,4,"DM, GB-9",25.17083333,80.80333333,Yes,Yes
+41,Garfield Bight,Bay,ACS,1,4,"DM, GB-10; R&F, W-20",25.16666667,80.80416667,Yes,No
+42,Cuthbert Lake,Upstream,ACS,4,1,NA,25.21301667,80.78623333,Yes,No
+43,Cuthbert Lake,Upstream,ACS,4,1,NA,25.21531667,80.77355,Yes,Yes
+44A,Cuthbert Lake,Upstream,ACS,4,1,44,25.21206667,80.76186667,Yes,Yes
+44B,Cuthbert Lake,Upstream,ACS,4,1,new,25.21166667,80.76218333,Yes,Yes
+44C,Cuthbert Lake,Upstream,ACS,4,1,new,25.21125,80.76261667,Yes,Yes
+45,Cuthbert Lake,Upstream,ACS,4,1,NA,25.20275,80.76875,Yes,No
