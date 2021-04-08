@@ -51,9 +51,9 @@ ds = SAV %>% group_by(Date, Site, Cover_type)%>%
 ds = ds %>% pivot_wider(names_from = 'Cover_type', values_from = 'mSAV')
 
 # merging tom's data
-tom = full_join(wq, site, by = c('Site'))
-tom = full_join(tom, chl, by = c('Site', 'Date') )
+tom = full_join(wq, chl, by = c('Site', 'Date') )
 tom = full_join(tom, ds, by = c('Site', 'Date'))
+tom = full_join(tom, site, by = c('Site'))
 
 # add season and year columns from date
 tom = tom %>% 
