@@ -66,4 +66,6 @@ tom = tom %>%
   ) %>% 
   select(Site, Date, Year, Season, everything())
 
+tom = tom %>% arrange(Date)
+
 write_csv(tom, 'data/tomDataAll.csv')
