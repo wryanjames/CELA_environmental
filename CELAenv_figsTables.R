@@ -279,17 +279,15 @@ ggsave("figs/Secchi.Depth_zone16-19.tiff", units="in", width=6, height=8, dpi=60
 
 
 
-#SAV by zone 2016-2109 ----
-
-sum(df, acetabularia::Udotea)
-
-
-  df = read_csv('data/tomDataAll.csv') %>% 
+# SAV by zone 2016-2109 ----
+df = read_csv('data/tomDataAll.csv') %>% 
   filter(between(Year, 2016, 2019)) %>% 
-  drop_na(Temp.) %>% 
+  pivot_longer(cols = Acetabularia:Udotea, names_to = 'sp', values_to = 'cover') %>%
+  group_by(Site, Date, Position, Season, pos, System)%>%
+  summarize(total = sum(cover, na.rm = T)) %>%
   group_by(Position, Season, pos, System) %>%
-  summarize(mean = mean(Temp.),
-            sd = sd(Temp.)) %>% drop_na() %>%
+  summarize(mean = mean(total),
+            sd = sd(total)) %>% drop_na() %>%
   mutate(source = 'Tom')
 
 
@@ -299,10 +297,10 @@ m = unique(b[ c('Lake', 'Position','pos', 'System')])
 dc = read_csv('data/CELA_envTow.csv') %>% 
   select(-System)%>% left_join(m, by = c('Lake'))%>%
   filter(between(Year, 2016, 2019)) %>% 
-  drop_na(Temperature) %>% 
+  drop_na(SAV) %>% 
   group_by(Position, Season, pos, System) %>%
-  summarize(mean = mean(Temperature),
-            sd = sd(Temperature)) %>% drop_na()%>% 
+  summarize(mean = mean(SAV),
+            sd = sd(SAV)) %>% drop_na()%>% 
   mutate(source = 'CELA')
 
 df = bind_rows(df,dc)
@@ -318,7 +316,7 @@ ggplot(df, aes(pos, mean, color = System, linetype = Season)) +
                                 'MCS' = 'deepskyblue3'),
                      labels = c('ACS' = 'Alligator Creek',
                                 'MCS' = 'McCormick Creek')) +
-  labs(x = NULL, y = "Temperature (°C)")+
+  labs(x = NULL, y = "SAV Percent Cover")+
   scale_x_continuous(breaks = 1:4, 
                      labels = c('Bay', 'Downstream', 'Middle', 'Upstream'))+
   coord_flip()+
@@ -334,4 +332,4 @@ ggplot(df, aes(pos, mean, color = System, linetype = Season)) +
         legend.text = element_text(size = 11))
 
 
-ggsave("figs/temp_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
+ggsave("figs/sav_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
