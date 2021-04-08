@@ -1,17 +1,17 @@
 Site #,Lake,Position,System,pos,pos_rev,previous sites,lat,lon,SAV,Nutrients
-1,Seven Palms,Upstream,MCS,4,1,"DM, 7P-1",25.198,80.73333333,Yes,No
-2,Seven Palms,Upstream,MCS,4,1,"DM, 7P-2",25.19333333,80.72583333,Yes,Yes
-3,Seven Palms,Upstream,MCS,4,1,"DM, 7P-3",25.18416667,80.72116667,Yes,No
-4A,Seven Palms,Upstream,MCS,4,1,new,25.19378333,80.74653333,Yes,Yes
-4B,Seven Palms,Upstream,MCS,4,1,new,25.1954,80.74658333,Yes,Yes
-4C,Seven Palms,Upstream,MCS,4,1,"DM, 7P-4, 4",25.197,80.74666667,Yes,Yes
-4,Seven Palms,Upstream,MCS,4,1,"DM, 7P-4, 4",25.197,80.74666667,Yes,Yes
-5,Seven Palms,Upstream,MCS,4,1,"DM, 7P-5, 5",25.19136667,80.71593333,Yes,Yes
-5A,Seven Palms,Upstream,MCS,4,1,"DM, 7P-5, 5",25.19136667,80.71593333,Yes,Yes
-5B,Seven Palms,Upstream,MCS,4,1,new,25.19126667,80.71731667,Yes,Yes
-5C,Seven Palms,Upstream,MCS,4,1,new,25.1903,80.71913333,Yes,Yes
-6,Seven Palms,Upstream,MCS,4,1,"DM, 7P-6",25.20416667,80.73883333,Yes,No
-7,Seven Palms,Upstream,MCS,4,1,"DM, 7P-7",25.17333333,80.72033333,Yes,Yes
+1,Seven Palm,Upstream,MCS,4,1,"DM, 7P-1",25.198,80.73333333,Yes,No
+2,Seven Palm,Upstream,MCS,4,1,"DM, 7P-2",25.19333333,80.72583333,Yes,Yes
+3,Seven Palm,Upstream,MCS,4,1,"DM, 7P-3",25.18416667,80.72116667,Yes,No
+4A,Seven Palm,Upstream,MCS,4,1,new,25.19378333,80.74653333,Yes,Yes
+4B,Seven Palm,Upstream,MCS,4,1,new,25.1954,80.74658333,Yes,Yes
+4C,Seven Palm,Upstream,MCS,4,1,"DM, 7P-4, 4",25.197,80.74666667,Yes,Yes
+4,Seven Palm,Upstream,MCS,4,1,"DM, 7P-4, 4",25.197,80.74666667,Yes,Yes
+5,Seven Palm,Upstream,MCS,4,1,"DM, 7P-5, 5",25.19136667,80.71593333,Yes,Yes
+5A,Seven Palm,Upstream,MCS,4,1,"DM, 7P-5, 5",25.19136667,80.71593333,Yes,Yes
+5B,Seven Palm,Upstream,MCS,4,1,new,25.19126667,80.71731667,Yes,Yes
+5C,Seven Palm,Upstream,MCS,4,1,new,25.1903,80.71913333,Yes,Yes
+6,Seven Palm,Upstream,MCS,4,1,"DM, 7P-6",25.20416667,80.73883333,Yes,No
+7,Seven Palm,Upstream,MCS,4,1,"DM, 7P-7",25.17333333,80.72033333,Yes,Yes
 8,Middle Lake,Middle,MCS,3,2,"R&F, 7P-9",25.17583333,80.72733333,Yes,Yes
 9,Middle Lake,Middle,MCS,3,2,"R&F, 7P-10, 9",25.18383333,80.73366667,Yes,Yes
 9A,Middle Lake,Middle,MCS,3,2,"R&F, 7P-10, 9",25.18383333,80.73366667,Yes,Yes
