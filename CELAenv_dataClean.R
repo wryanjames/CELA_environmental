@@ -60,8 +60,8 @@ tom = tom %>%
   mutate(Date = mdy(Date),
          Year = year(Date), 
          Season = case_when(
-           month(Date) %in% c(11,12,1,2,3,4) ~ 'Dry',
-           month(Date) %in% c(5,6,7,8,9,10) ~ 'Wet'
+           month(Date) %in% c(2,3,4,5,6,7) ~ 'Dry',
+           month(Date) %in% c(8,9,10,11,12,1) ~ 'Wet'
          )
   ) %>% 
   select(Site, Date, Year, Season, everything())
