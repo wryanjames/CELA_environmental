@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>19930101</pubdate>
+<title>Shallow Banks in Florida Bay and Florida Keys</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace/>
+<publish>FWC, FMRI, CAMRA</publish>
+</pubinfo>
+<onlink>http://atoll.floridamarine.org/arcgis/rest/services/FWC_GIS/OpenData_Locations/MapServer/5</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>For full FGDC metadata record, please click here. &#13;
+&#13;
+These GIS data represent shallow banks within Florida Bay and the adjoining Florida Keys as depicted on NOAA Nautical Chart 11451. No NOAA bathymetric data are available for most of these polygons as the water was too shallow for traditional survey vessels. &#13;
+</abstract>
+<purpose>These data were made digital to provide information on the locations of barriers to water circulation within Florida Bay. This need arose during studies of the seagrass die-off and phytoplankton blooms of the late 1980s through mid 1990s.</purpose>
+<supplinf>Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information. These data were digitized from paper chart in 1993. Although the original chart data were published in a 1980s version of Chart 11451, the varying source data can be historic, dating back to the 1800s. More recent data on the location of the shallow banks is now available from USGS.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>19930101</caldate>
+</sngdate>
+</timeinfo>
+<current>process date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-82.944604</westbc>
+<eastbc>-80.351072</eastbc>
+<northbc>25.271781</northbc>
+<southbc>24.428186</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>geoscientificInformation</themekey>
+</theme>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>benthic</themekey>
+<themekey>GIS</themekey>
+<themekey>marine</themekey>
+<themekey>mapping</themekey>
+</theme>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>South Florida Water Management District</placekey>
+</place>
+<place>
+<placekt>Florida Counties</placekt>
+<placekey>Monroe</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Florida Bay</placekey>
+</place>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>south Florida</placekey>
+<placekey>Florida Keys</placekey>
+<placekey>Florida Bay</placekey>
+<placekey>Florida</placekey>
+<placekey>Florida Keys National Marine Sanctuary</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-South</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the datas suitability for other purposes. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>GISLibrarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Fish and Wildlife Research Institute 100 Eighth Avenue Southeast</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</datacred>
+<secinfo>
+<secsys>FMRI-DC</secsys>
+<sechandl>Do NOT distribute</sechandl>
+</secinfo>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 1; ESRI ArcCatalog 8.1.0.642</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Unknown</attraccr>
+</attracc>
+<logic>Unknown</logic>
+<complete>unknown</complete>
+<posacc>
+<horizpa>
+<horizpar>Unknown</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Unknown</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>19800101</pubdate>
+<title>National Oceanic and Atmospheric Administration, Nautical Chart 11451</title>
+</citeinfo>
+</srccite>
+<srcscale>80000</srcscale>
+<typesrc>hardcopy</typesrc>
+<srccitea>National Oceanic and Atmospheric Administration, Nautical Chart 11451</srccitea>
+<srccontr>Data were digitized from the source Nautical Chart</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>These data were digitized from the source chart 11451 in 1993. Polygons labeled "bathym banks" appear to have been depth = 555 polygons extracted from the "fmri.nearshore_keys_poly" bathymetry data set.</procdesc>
+<procdate>19930101</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>GISLibrarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Fish and Wildlife Research Institute 100 Eighth Avenue Southeast</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>1949</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>1949</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>fmri.banks_keys_poly</enttypl>
+<enttypd>shallow banks of the Florida Keys in polygon format.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Internal value used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Polygon perimeter.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal value used by ArcINFO</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Numeric ID for each poly.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>DESCRIPTION</attrlabl>
+<attrdef>Description of bank type from Nautical chart</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Land</edomv>
+						<edomvd>Small islands within Florida Bay that are integrated with the banks as depicted on Chart 11451.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>CODE</attrlabl>
+<attrdef>unknown code</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Water</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Internal value used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Polygon area.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Internal value used by SDE</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Internal value used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Internal value used by SDE</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>KEYSBNKS_ID</attrlabl>
+<attrdef>Internal value used by ArcINFO</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Internal value used by ArcINFO</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>KEYSBNKS_</attrlabl>
+<attrdef>Internal value used by ArcINFO</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Internal value used by ArcINFO</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>GIS.FWC.banks_keys_poly.AREA</attrlabl>
+</attr>
+</detailed>
+<overview>
+<eaover>These data represent shallow banks within Florida Bay and the adjoining Florida Keys as depicted on NOAA Nautical Chart 11451</eaover>
+<eadetcit>These data represent shallow banks within Florida Bay and the adjoining Florida Keys as depicted on NOAA Nautical Chart 11451</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>GISLibrarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Fish and Wildlife Research Institute 100 Eighth Avenue Southeast</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>See access and use constraints information.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011120</metd>
+<metrd>20060503</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>GISLibrarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Fish and Wildlife Research Institute 100 Eighth Avenue Southeast</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FMRI-MC</metscs>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+</metadata>
