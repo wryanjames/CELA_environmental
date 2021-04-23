@@ -22,6 +22,11 @@ chl = read_csv('data/Chlorophyll.csv') %>%
   select(Site:chla) %>%
   mutate(Site = as.character(Site))
 
+# nutrient data
+nut = read_csv('data/TomNutrients.csv')%>%
+  mutate(NP = TOTN/TOTP)
+
+
 # SAV data
 sav = list.files('data/', pattern = 'SAV',full.names = T)
 
@@ -52,6 +57,7 @@ ds = ds %>% pivot_wider(names_from = 'Cover_type', values_from = 'mSAV')
 
 # merging tom's data
 tom = full_join(wq, chl, by = c('Site', 'Date') )
+tom = full_join(tom, nut, by = c('Site', 'Date'))
 tom = full_join(tom, ds, by = c('Site', 'Date'))
 tom = full_join(tom, site, by = c('Site'))
 

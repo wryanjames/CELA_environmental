@@ -596,3 +596,141 @@ ggplot(df, aes(Date, cover, color = System, linetype = Species, shape = Species)
 
 
 ggsave("figs/savStack_zoneAll.tiff", units="in", width=8, height=12, dpi=600,compression = 'lzw')
+
+
+# Figs for proposal Josh----
+# Chla by zone 2016-2109 ----
+df = read_csv('data/tomDataAll.csv') %>% 
+  filter(between(Year, 2016, 2019)) %>% 
+  drop_na(chla) %>% 
+  group_by(Position, Season, pos, System) %>%
+  summarize(mean = mean(chla),
+            sd = sd(chla))
+
+# plot
+ggplot(df, aes(pos, mean, color = System, linetype = Season)) + 
+  geom_errorbar(aes( ymin=mean-sd,ymax=mean+sd),
+                width=.1, size = 1.5)+
+  geom_point(size = 4)+
+  geom_line(size = 1.5)+
+  theme_bw()+
+  scale_color_manual(values = c('ACS' = 'darkolivegreen3',
+                                'MCS' = 'deepskyblue3'),
+                     labels = c('ACS' = 'Alligator Creek',
+                                'MCS' = 'McCormick Creek')) +
+  labs(x = NULL, y = expression(paste("Chlorophyll a (",mu,"g/L)")))+
+  scale_x_continuous(breaks = 1:4, 
+                     labels = c('Bay', 'Downstream', 'Middle', 'Upstream'))+
+  coord_flip()+
+  theme(legend.position = 'bottom',
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size = 18), 
+        axis.text = element_text(size = 16, colour = "gray0"), 
+        plot.title = element_text(size = 18, hjust=0.5),
+        legend.title = element_blank(),
+        strip.text.x = element_text(size = 18),
+        legend.text = element_text(size = 11))
+ggsave("figs/chla_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
+
+# Total N by zone 2016-2109 ----
+df = read_csv('data/tomDataAll.csv') %>% 
+  filter(between(Year, 2016, 2019)) %>% 
+  drop_na(TOTN) %>% 
+  group_by(Position, Season, pos, System) %>%
+  summarize(mean = mean(TOTN),
+            sd = sd(TOTN))
+
+# plot
+ggplot(df, aes(pos, mean, color = System, linetype = Season)) + 
+  geom_errorbar(aes( ymin=mean-sd,ymax=mean+sd),
+                width=.1, size = 1.5)+
+  geom_point(size = 4)+
+  geom_line(size = 1.5)+
+  theme_bw()+
+  scale_color_manual(values = c('ACS' = 'darkolivegreen3',
+                                'MCS' = 'deepskyblue3'),
+                     labels = c('ACS' = 'Alligator Creek',
+                                'MCS' = 'McCormick Creek')) +
+  labs(x = NULL, y = expression(paste("Total N (",mu,"M)")))+
+  scale_x_continuous(breaks = 1:4, 
+                     labels = c('Bay', 'Downstream', 'Middle', 'Upstream'))+
+  coord_flip()+
+  theme(legend.position = 'bottom',
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size = 18), 
+        axis.text = element_text(size = 16, colour = "gray0"), 
+        plot.title = element_text(size = 18, hjust=0.5),
+        legend.title = element_blank(),
+        strip.text.x = element_text(size = 18),
+        legend.text = element_text(size = 11))
+ggsave("figs/TotN_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
+
+# Total P by zone 2016-2109 ----
+df = read_csv('data/tomDataAll.csv') %>% 
+  filter(between(Year, 2016, 2019)) %>% 
+  drop_na(TOTP) %>% 
+  group_by(Position, Season, pos, System) %>%
+  summarize(mean = mean(TOTP),
+            sd = sd(TOTP))
+
+# plot
+ggplot(df, aes(pos, mean, color = System, linetype = Season)) + 
+  geom_errorbar(aes( ymin=mean-sd,ymax=mean+sd),
+                width=.1, size = 1.5)+
+  geom_point(size = 4)+
+  geom_line(size = 1.5)+
+  theme_bw()+
+  scale_color_manual(values = c('ACS' = 'darkolivegreen3',
+                                'MCS' = 'deepskyblue3'),
+                     labels = c('ACS' = 'Alligator Creek',
+                                'MCS' = 'McCormick Creek')) +
+  labs(x = NULL, y = expression(paste("Total P (",mu,"M)")))+
+  scale_x_continuous(breaks = 1:4, 
+                     labels = c('Bay', 'Downstream', 'Middle', 'Upstream'))+
+  coord_flip()+
+  theme(legend.position = 'bottom',
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size = 18), 
+        axis.text = element_text(size = 16, colour = "gray0"), 
+        plot.title = element_text(size = 18, hjust=0.5),
+        legend.title = element_blank(),
+        strip.text.x = element_text(size = 18),
+        legend.text = element_text(size = 11))
+ggsave("figs/TotP_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
+
+# N:P by zone 2016-2109 ----
+df = read_csv('data/tomDataAll.csv') %>% 
+  filter(between(Year, 2016, 2019)) %>% 
+  drop_na(NP) %>% 
+  group_by(Position, Season, pos, System) %>%
+  summarize(mean = mean(NP),
+            sd = sd(NP))
+
+# plot
+ggplot(df, aes(pos, mean, color = System, linetype = Season)) + 
+  geom_errorbar(aes( ymin=mean-sd,ymax=mean+sd),
+                width=.1, size = 1.5)+
+  geom_point(size = 4)+
+  geom_line(size = 1.5)+
+  theme_bw()+
+  scale_color_manual(values = c('ACS' = 'darkolivegreen3',
+                                'MCS' = 'deepskyblue3'),
+                     labels = c('ACS' = 'Alligator Creek',
+                                'MCS' = 'McCormick Creek')) +
+  labs(x = NULL, y = expression(paste("N:P")))+
+  scale_x_continuous(breaks = 1:4, 
+                     labels = c('Bay', 'Downstream', 'Middle', 'Upstream'))+
+  coord_flip()+
+  theme(legend.position = 'bottom',
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size = 18), 
+        axis.text = element_text(size = 16, colour = "gray0"), 
+        plot.title = element_text(size = 18, hjust=0.5),
+        legend.title = element_blank(),
+        strip.text.x = element_text(size = 18),
+        legend.text = element_text(size = 11))
+ggsave("figs/NP_zone16-19.tiff", units="in", width=6, height=8, dpi=600,compression = 'lzw')
