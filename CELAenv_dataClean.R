@@ -28,7 +28,7 @@ nut = read_csv('data/TomNutrients.csv')%>%
 
 
 # SAV data
-sav = list.files('data/', pattern = 'SAV',full.names = T)
+sav = list.files('data/tomSAVdata', pattern = 'SAV',full.names = T)
 
 for (i in 1:length(sav)){
   d = read_csv(sav[i], skip = 1, col_types = cols(.default = "c") )
@@ -56,10 +56,10 @@ ds = SAV %>% group_by(Date, Site, Cover_type)%>%
 ds = ds %>% pivot_wider(names_from = 'Cover_type', values_from = 'mSAV')
 
 # merging tom's data
-tom = full_join(wq, chl, by = c('Site', 'Date') )
-tom = full_join(tom, nut, by = c('Site', 'Date'))
-tom = full_join(tom, ds, by = c('Site', 'Date'))
-tom = full_join(tom, site, by = c('Site'))
+tom = full_join(wq, chl, by = c('Site', 'Date')) %>%
+    full_join(nut, by = c('Site', 'Date')) %>%
+    full_join(ds, by = c('Site', 'Date')) %>%
+    full_join(site, by = c('Site'))
 
 # add season and year columns from date
 tom = tom %>% 
